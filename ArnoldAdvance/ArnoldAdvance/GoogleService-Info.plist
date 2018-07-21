@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>236946140202-ggrpj9ila0vln11ueb22vcmo97aqafaq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.236946140202-ggrpj9ila0vln11ueb22vcmo97aqafaq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCY6Hp66MYfCiEX_z4ygjSz5WAsWJ5K42k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>236946140202</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.siavash.ArnoldAdvance</string>
+	<key>PROJECT_ID</key>
+	<string>arnoldlevel1-4b251</string>
+	<key>STORAGE_BUCKET</key>
+	<string>arnoldlevel1-4b251.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:236946140202:ios:9aaab6abbdf479b7</string>
+	<key>DATABASE_URL</key>
+	<string>https://arnoldlevel1-4b251.firebaseio.com</string>
+</dict>
+</plist>

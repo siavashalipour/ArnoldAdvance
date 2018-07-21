@@ -1,0 +1,6 @@
+framework module Pods_ArnoldAdvance {
+  umbrella header "Pods-ArnoldAdvance-umbrella.h"
+
+  export *
+  module * { export * }
+}
