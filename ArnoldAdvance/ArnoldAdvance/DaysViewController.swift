@@ -24,7 +24,7 @@ final class DaysViewController: UIViewController {
   }
   
   private func setupUI() {
-    title = "Advance L1"
+    title = "L1"
     view.addSubview(tableView)
     tableView.snp.makeConstraints { (make) in
       make.edges.equalToSuperview()
@@ -51,7 +51,33 @@ extension DaysViewController: UITableViewDelegate, UITableViewDataSource {
   }
   
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-    
+    let vc = WorkoutViewController()
+    vc.title = workoutDays[indexPath.row]
+    switch indexPath.row {
+    case 0:
+      vc.workout = WorkoutType.shouldersArmsCalves
+    case 1: // OFF
+        break
+    case 2:
+      vc.workout = WorkoutType.chestBack
+    case 3:
+      vc.workout = WorkoutType.thighsCalves
+    case 4:
+      vc.workout = WorkoutType.shouldersArmsCalves
+    case 5:
+      vc.workout = WorkoutType.chestBack
+    case 6:
+      vc.workout = WorkoutType.thighsCalves
+    case 7:
+      vc.workout = WorkoutType.shouldersArmsCalves
+    case 8:
+      vc.workout = WorkoutType.chestBack
+    case 9:
+      vc.workout = WorkoutType.thighsCalves
+    default:
+      break
+    }
+    navigationController?.pushViewController(vc, animated: true)
   }
 }
 
@@ -85,6 +111,7 @@ final class DayTableCell: UITableViewCell {
     contentView.addSubview(titleLabel)
     titleLabel.snp.makeConstraints { (make) in
       make.left.top.equalTo(16)
+      make.right.equalTo(-16)
       make.centerY.equalToSuperview()
     }
   }

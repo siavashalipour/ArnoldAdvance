@@ -9,11 +9,11 @@
 import Foundation
 
 let workoutDays: [String] = ["Monday",
-                             "Tuesday",
+                             "Tuesday - OFF",
                              "Wednesday - AM", "Wednesday - PM",
                              "Thursday",
                              "Friday - AM", "Friday - PM",
-                             "Saturday REST",
+                             "Saturday",
                              "Sunday - AM", "Sunday - PM"]
 
 let chestWorkout: [String] = ["Flat Press - 10,8,6,4,4 - Stripping last two sets",
