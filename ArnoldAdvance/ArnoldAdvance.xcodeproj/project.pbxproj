@@ -10,12 +10,12 @@
 		73CB91171AE7E49CC489CB7A /* Pods_ArnoldAdvance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59154C77E7F099D1ABD9D452 /* Pods_ArnoldAdvance.framework */; };
 		7C00FA742102D5F2005B643B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C00FA732102D5F2005B643B /* AppDelegate.swift */; };
 		7C00FA792102D5F2005B643B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C00FA772102D5F2005B643B /* Main.storyboard */; };
-		7C00FA7B2102D5F7005B643B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C00FA7A2102D5F7005B643B /* Assets.xcassets */; };
 		7C00FA7E2102D5F7005B643B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C00FA7C2102D5F7005B643B /* LaunchScreen.storyboard */; };
 		7C00FA862102D670005B643B /* DaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C00FA852102D670005B643B /* DaysViewController.swift */; };
 		7C00FA882102D792005B643B /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C00FA872102D792005B643B /* DataModels.swift */; };
 		7C00FA8A21030AFE005B643B /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C00FA8921030AFE005B643B /* WorkoutViewController.swift */; };
 		7C00FA8C21030C5B005B643B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C00FA8B21030C5B005B643B /* GoogleService-Info.plist */; };
+		7C00FA8E210464FF005B643B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C00FA8D210464FF005B643B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,13 +25,13 @@
 		7C00FA702102D5F2005B643B /* ArnoldAdvance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArnoldAdvance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C00FA732102D5F2005B643B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C00FA782102D5F2005B643B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7C00FA7A2102D5F7005B643B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C00FA7D2102D5F7005B643B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C00FA7F2102D5F7005B643B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C00FA852102D670005B643B /* DaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysViewController.swift; sourceTree = "<group>"; };
 		7C00FA872102D792005B643B /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
 		7C00FA8921030AFE005B643B /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
 		7C00FA8B21030C5B005B643B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7C00FA8D210464FF005B643B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,9 +90,9 @@
 				7C00FA872102D792005B643B /* DataModels.swift */,
 				7C00FA8B21030C5B005B643B /* GoogleService-Info.plist */,
 				7C00FA772102D5F2005B643B /* Main.storyboard */,
-				7C00FA7A2102D5F7005B643B /* Assets.xcassets */,
 				7C00FA7C2102D5F7005B643B /* LaunchScreen.storyboard */,
 				7C00FA7F2102D5F7005B643B /* Info.plist */,
+				7C00FA8D210464FF005B643B /* Assets.xcassets */,
 			);
 			path = ArnoldAdvance;
 			sourceTree = "<group>";
@@ -158,8 +158,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C00FA7E2102D5F7005B643B /* LaunchScreen.storyboard in Resources */,
-				7C00FA7B2102D5F7005B643B /* Assets.xcassets in Resources */,
 				7C00FA8C21030C5B005B643B /* GoogleService-Info.plist in Resources */,
+				7C00FA8E210464FF005B643B /* Assets.xcassets in Resources */,
 				7C00FA792102D5F2005B643B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

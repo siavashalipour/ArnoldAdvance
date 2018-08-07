@@ -57,7 +57,7 @@ extension DaysViewController: UITableViewDelegate, UITableViewDataSource {
     case 0:
       vc.workout = WorkoutType.shouldersArmsCalves
     case 1: // OFF
-        break
+      break
     case 2:
       vc.workout = WorkoutType.chestBack
     case 3:
