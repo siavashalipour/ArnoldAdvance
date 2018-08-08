@@ -78,10 +78,10 @@ final class WorkoutViewController: UIViewController {
       _ = backWorkout.map({self.ds.append($0)})
       _ = abs1.map({self.ds.append($0)})
     case .shouldersArmsCalves:
+      _ = calvesWorkout.map({self.ds.append($0)})
       _ = shouldersWorkout.map({self.ds.append($0)})
       _ = upperArmsWorkout.map({self.ds.append($0)})
       _ = forearmsWokout.map({self.ds.append($0)})
-      _ = calvesWorkout.map({self.ds.append($0)})
       _ = abs2.map({self.ds.append($0)})
     case .thighsCalves:
       _ = thighsWorkout.map({self.ds.append($0)})
