@@ -89,6 +89,7 @@ final class WorkoutViewController: UIViewController {
     }
     tableView.reloadData()
   }
+  
   @objc
   private func dismissKeyboard() {
     view.endEditing(true)
@@ -97,9 +98,18 @@ final class WorkoutViewController: UIViewController {
   @objc
   private func saveToFirebase() {
     guard let workout = workout else { return }
-    if textView.text.count < 1 { return }
+    if textView.text.count < 1 {
+      self.dismissKeyboard()
+      _ = self.navigationController?.popViewController(animated: true)
+      return
+    }
     ref = Database.database().reference()
-    ref.child("\(workout.rawValue) - \(Date())").setValue(["Notes": textView.text])
+    ref.child("\(workout.rawValue) - \(Date())").setValue(["Notes": textView.text]) { (error, ref) in
+      DispatchQueue.main.async {
+        self.dismissKeyboard()
+        _ = self.navigationController?.popViewController(animated: true)
+      }
+    }
   }
   private func setupUI() {
     _ = view.subviews.map({$0.removeFromSuperview()})

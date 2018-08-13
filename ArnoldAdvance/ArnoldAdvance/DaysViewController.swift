@@ -29,6 +29,14 @@ final class DaysViewController: UIViewController {
     tableView.snp.makeConstraints { (make) in
       make.edges.equalToSuperview()
     }
+    let rightBarButtonItem = UIBarButtonItem.init(title: "Diary", style: .plain, target: self, action: #selector(didTapGoals))
+    navigationItem.rightBarButtonItems = [rightBarButtonItem]
+  }
+  
+  @objc
+  private func didTapGoals() {
+    let vc = DiaryViewController()
+    navigationController?.pushViewController(vc, animated: true)
   }
 }
 
@@ -54,25 +62,23 @@ extension DaysViewController: UITableViewDelegate, UITableViewDataSource {
     let vc = WorkoutViewController()
     vc.title = workoutDays[indexPath.row]
     switch indexPath.row {
-    case 0:
+    case 0: // Monday
       vc.workout = WorkoutType.shouldersArmsCalves
-    case 1: // OFF
-      break
-    case 2:
+    case 1: // Tuesday
       vc.workout = WorkoutType.chestBack
-    case 3:
+    case 2: // Wednesday
       vc.workout = WorkoutType.thighsCalves
-    case 4:
+    case 3: // Thursday
       vc.workout = WorkoutType.shouldersArmsCalves
-    case 5:
+    case 4: // Friday AM
       vc.workout = WorkoutType.chestBack
-    case 6:
+    case 5: // Friday PM
       vc.workout = WorkoutType.thighsCalves
-    case 7:
+    case 6: // Saturday
       vc.workout = WorkoutType.shouldersArmsCalves
-    case 8:
+    case 7: // Sunday AM
       vc.workout = WorkoutType.chestBack
-    case 9:
+    case 8: // Sunday PM
       vc.workout = WorkoutType.thighsCalves
     default:
       break

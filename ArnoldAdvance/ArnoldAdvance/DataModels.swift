@@ -8,13 +8,13 @@
 
 import Foundation
 
-let workoutDays: [String] = ["Monday",
-                             "Tuesday - Off",
-                             "Wednesday - AM", "Wednesday - PM",
-                             "Thursday",
-                             "Friday - AM", "Friday - PM",
-                             "Saturday",
-                             "Sunday - AM", "Sunday - PM"]
+let workoutDays: [String] = ["Monday - shoulders Arms Calves",
+                             "Tuesday - chest Back",
+                             "Wednesday(12AM) - Legs ",
+                             "Thursday - shoulders Arms Calves",
+                             "Friday(AM) - chest Back", "Friday(PM) - Legs",
+                             "Saturday - shoulders Arms Calves",
+                             "Sunday(AM) - chest Back", "Sunday(PM) - Legs"]
 
 let chestWorkout: [String] = ["Decline Press - 15,10,8,8,8",
                               "Incline Press - 10,8,6,4,4 - Stripping last two sets",
