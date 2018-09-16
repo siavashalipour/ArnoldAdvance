@@ -64,22 +64,24 @@ extension DaysViewController: UITableViewDelegate, UITableViewDataSource {
     switch indexPath.row {
     case 0: // Monday
       vc.workout = WorkoutType.shouldersArmsCalves
-    case 1: // Tuesday
+    case 1: // Tuesday AM
+      vc.workout = WorkoutType.dtpLeg
+    case 2: // Tuesday PM
       vc.workout = WorkoutType.chestBack
-    case 2: // Wednesday
-      vc.workout = WorkoutType.thighsCalves
-    case 3: // Thursday
+    case 3: // Wednesday AM
       vc.workout = WorkoutType.shouldersArmsCalves
-    case 4: // Friday AM
+    case 4: // Thursday
       vc.workout = WorkoutType.chestBack
-    case 5: // Friday PM
-      vc.workout = WorkoutType.thighsCalves
-    case 6: // Saturday
+    case 5: // Friday AM
       vc.workout = WorkoutType.shouldersArmsCalves
-    case 7: // Sunday AM
-      vc.workout = WorkoutType.chestBack
-    case 8: // Sunday PM
+    case 6: // Friday PM
       vc.workout = WorkoutType.thighsCalves
+    case 7: // Saturday OFF
+      break
+    case 8: // Sunday AM
+      vc.workout = WorkoutType.superSetLeg
+    case 9: // Sunday PM
+      vc.workout = WorkoutType.chestBack
     default:
       break
     }

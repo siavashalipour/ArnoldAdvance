@@ -14,6 +14,8 @@ enum WorkoutType: String {
   case chestBack
   case thighsCalves
   case shouldersArmsCalves
+  case dtpLeg
+  case superSetLeg
 }
 
 final class WorkoutViewController: UIViewController {
@@ -86,6 +88,10 @@ final class WorkoutViewController: UIViewController {
     case .thighsCalves:
       _ = thighsWorkout.map({self.ds.append($0)})
       _ = calvesWorkout.map({self.ds.append($0)})
+    case .dtpLeg:
+      _ = dtpLegWorkout.map({self.ds.append($0)})
+    case .superSetLeg:
+      _ = superSetLegWorlout.map({self.ds.append($0)})
     }
     tableView.reloadData()
   }

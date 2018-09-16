@@ -9,12 +9,12 @@
 import Foundation
 
 let workoutDays: [String] = ["Monday - shoulders Arms Calves",
-                             "Tuesday - chest Back",
-                             "Wednesday(12AM) - Legs ",
-                             "Thursday - shoulders Arms Calves",
-                             "Friday(AM) - chest Back", "Friday(PM) - Legs",
-                             "Saturday - shoulders Arms Calves",
-                             "Sunday(AM) - chest Back", "Sunday(PM) - Legs"]
+                             "Tuesday(AM) - Legs","Tuesday(PM) - Chest Back",
+                             "Wednesday - shoulders Arms Calves",
+                             "Thursday - chest Back",
+                             "Friday(AM) - shoulders Arms Calves", "Friday(PM) - Legs",
+                             "Saturday - OFF",
+                             "Sunday(AM) - Legs", "Sunday(PM) - chest Back"]
 
 let chestWorkout: [String] = ["Decline Press - 15,10,8,8,8",
                               "Incline Press - 10,8,6,4,4 - Stripping last two sets",
@@ -33,6 +33,16 @@ let thighsWorkout: [String] = ["Squats - 6X20 Warm-up; 10,8,6,4,4",
                                "Lying leg curls - 20,10,8,6,6",
                                "Standing leg curls - 5X10",
                                "Straight-Leg Deadlifts - 3X10"]
+
+let dtpLegWorkout: [String] = ["Leg Press/Calf - 50/40, 40/30, 30/20, 20/10, 10/10",
+                              "Leg press/Calf - 10/10, 20/10, 30/20, 40/30, 50/40"]
+
+let superSetLegWorlout: [String] = ["Leg Ex/Leg Press - 20 1/2 Rep",
+                                    "Leg Ex/Leg Press - 100 dropSet",
+                                    "Leg Ex/Leg Press - 20 Negative",
+                                    "Leg curl/Calvs - 20 1/2 Rep",
+                                    "Leg curl/Calvs - 100 dropSet",
+                                    "Leg curl/Calvs - 20 negative"]
 
 let calvesWorkout: [String] = ["Seated Calf - 5X10", "Standing Calf - 15,10,8,8,8"]
 
